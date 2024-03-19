@@ -7,6 +7,8 @@ export async function Form() {
     const imageFile = formData.get('image') ;
     const blob = await put(imageFile.name, imageFile, {
       access: 'public',
+      addRandomSuffix:false,
+
     });
     revalidatePath('/');
     return blob;

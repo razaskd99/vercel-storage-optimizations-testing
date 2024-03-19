@@ -13,7 +13,6 @@ export default function Home() {
 
     <MyImages />
 
-    <img src="https://ilsfslrfumckoeg0.public.blob.vercel-storage.com/output-onlinegiftools-ORF6LwkscF6pTleH9kD0Sn44MLn6nI.gif" alt="" />
     </main>
   );
 }
